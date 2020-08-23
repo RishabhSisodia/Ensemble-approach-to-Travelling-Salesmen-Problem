@@ -6,11 +6,10 @@
 * ```run TSPGenetic.py```
 
 ## Description
-The traveling-salesman problem is one of the classical NP-Complete problems. No current algorithms are available which can solve these problems in polynomial time, that is, the number of steps grows as a polynomial according to the size of the input. The traveling-salesman problem involves a salesman who must make a tour of a number of cities using the shortest path available. For each number of cities n, the number of paths which must be explored is n!, causing this problem to grow exponentially rather than as a polynomial. Three separate algorithms**(Genetic, Greedy and Branch & Bound)** are examined and analyzed against the **Ensembled alogrithm** consisting all three of them. These four algorithms were tested on four variations of TSP - **Burma14, Ulysses22, Bays29, Berlin52**. 
+The traveling-salesman problem is one of the classical NP-Complete problems. No current algorithms are available which can solve these problems in polynomial time, that is, the number of steps grows as a polynomial according to the size of the input. The traveling-salesman problem involves a salesman who must make a tour of a number of cities using the shortest path available. For each number of cities n, the number of paths which must be explored is n!, causing this problem to grow exponentially rather than as a polynomial. Three separate algorithms **(Genetic, Greedy and Branch & Bound)** are examined and analyzed against the **Ensembled alogrithm** consisting all three of them. These four algorithms were tested on four variations of TSP - **Burma14, Ulysses22, Bays29, Berlin52**. 
 
 ## Results
 ``` Yaxis = Fitness = 1/optimal distance to travel all cities``` 
-```Xaxis = Algorithms```
 
 <p align="center">
   <img src="https://github.com/RishabhSisodia/Ensemble-approach-to-Travelling-Salesmen-Problem/blob/master/Burma14.JPG" alt="Project Layout" width="400px" height="300px"/>
@@ -31,10 +30,8 @@ We can hereby conclude that for problems with larger number of cities, the GA wi
 
 
 ## Contributors
-
 Created the project in a team with ***[Saikat Bhattacharyya](https://github.com/sai-kat)***.
 
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/RishabhSisodia/Ensemble-approach-to-Travelling-Salesmen-Problem/blob/master/LICENSE) file for details
